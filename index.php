@@ -55,11 +55,21 @@ include 'C:\xampp\htdocs\UNCO_FAI_TUDW_PWD_2025\Views\Estruct\header.php';
         <div class="collapse" id="tp2">
             <ul class="list-group ms-3">
                 <li class="list-group-item">
-                    <a href="Views/TP2/verNumeroView.php">Verificar Tipo de Número</a>
+                    <a href="Views/TP2/verNumeroView.php"> Ejercicio 1 - Verificar Tipo de Número</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="Views/TP2/otraValidacion.php">Otra Validación</a>
+                    <a href="Views/TP2/verHorasView.php"> Ejercicio 2 - Verificar Horas</a>
                 </li>
+
+                <li class="list-group-item">
+                    <a href="Views/TP2/personaView.php"> Ejercicio 3 - Formulario</a>
+                </li>
+
+                <li class="list-group-item">
+                    <a href="Views/TP2/peliculaView.php"> Ejercicio 4 - Verificar Películas</a>
+                </li>
+
+            
             </ul>
         </div>
 
