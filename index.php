@@ -82,7 +82,7 @@ include 'C:\xampp\htdocs\UNCO_FAI_TUDW_PWD_2025\Views\Estruct\header.php';
         <div class="collapse" id="tp3">
             <ul class="list-group ms-3">
                 <li class="list-group-item">
-                    <a href="Views/TP3/archivoController.php">Subida de un Archivo</a>
+                    <a href="Views/TP3/mostrarTxtView.php">Subida de un Archivo TXT</a>
                 </li>
                 <li class="list-group-item">
                     <a href="Views/TP3/subirArchivoView.php">Subida de Múltiples Archivos</a>
