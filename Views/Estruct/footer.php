@@ -1,5 +1,5 @@
 </div> <!-- /container -->
-<script src="/PDW_TPS/Views/js/bootstrap.bundle.min.js"></script>
+<script src="/UNCO_FAI_TUDW_PWD_2025/Views/js/bootstrap.bundle.min.js"></script>
     <script>
         (function() {
             'use strict';
