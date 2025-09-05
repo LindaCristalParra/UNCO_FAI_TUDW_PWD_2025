@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="Views/css/bootstrap.min.css">
 </head>
 
-<?php 
-include __DIR__ . './../Views/Estruct/header.php'; 
+<php 
+include "C:\xampp\htdocs\";
 ?>
 
 <body class="container mt-5">
