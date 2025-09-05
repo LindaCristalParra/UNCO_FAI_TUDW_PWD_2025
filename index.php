@@ -5,14 +5,9 @@
     <meta charset="UTF-8">
     <title>Trabajos Prácticos - Programación Web Dinámica</title>
 </head>
-
-<<<<<<< HEAD
 <?php
 include 'C:\xampp\htdocs\UNCO_FAI_TUDW_PWD_2025\Views\Estruct\header.php';
-=======
-<php 
-include "C:\xampp\htdocs\";
->>>>>>> b0ca6e77537e6119005a9e592b07570c1c75b363
+
 ?>
 
 <body class="container mt-5">
