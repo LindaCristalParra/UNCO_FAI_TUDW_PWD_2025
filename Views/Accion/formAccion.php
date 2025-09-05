@@ -44,6 +44,10 @@ switch ($accion) {
     case 'entradaCine2':
         include_once '../../Controllers/TP2/entradaCineController.php';
         break;
+    
+    case 'cargarPelicula':
+        include_once '../../Controllers/TP2/peliculaController.php';
+        break;
         
     default:
         echo "<p>Acción no reconocida o no especificada.</p>";
