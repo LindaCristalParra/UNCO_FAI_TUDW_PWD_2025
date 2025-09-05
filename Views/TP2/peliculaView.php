@@ -1,6 +1,6 @@
 <?php 
 $titulo = "Cargar Película - Cinem@s"; 
-include __DIR__ . '/header.php'; 
+include __DIR__ . '/../Estruct/header.php'; 
 ?>
 
     <div class="container mt-4">
@@ -145,4 +145,4 @@ include __DIR__ . '/header.php';
         })();
     </script>
 
-<?php include __DIR__ . '/footer.php'; ?>
+<?php include __DIR__ . '/../estructura/footer.php'; ?>

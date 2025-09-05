@@ -1,6 +1,6 @@
 <?php 
 $titulo = "Formulario de Persona"; 
-include __DIR__ . '/header.php'; 
+include __DIR__ . '/../Estruct/header.php'; 
 ?>
     <div class="container mt-4">
         <h2 class="mb-4">Ingrese sus datos</h2>
@@ -114,4 +114,4 @@ include __DIR__ . '/header.php';
             });
         })();
     </script>
-<?php include __DIR__ . '/footer.php'; ?>
+<?php include __DIR__ . '/../Estruct/footer.php'; ?>

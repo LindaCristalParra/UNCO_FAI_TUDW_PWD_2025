@@ -1,6 +1,6 @@
 <?php 
-$titulo = "Operación Matemática"; 
-include __DIR__ . '/header.php'; 
+$titulo = "Formulario de Operación Matemática"; 
+include __DIR__ . '/../Estruct/header.php'; 
 ?>
     <div class="container mt-4">
         <h2 class="mb-4">Ingrese los números y seleccione la operación</h2>
@@ -65,4 +65,4 @@ include __DIR__ . '/header.php';
                 });
         })();
     </script>
-<?php include __DIR__ . '/footer.php'; ?>
+<?php include __DIR__ . '/../Estruct/footer.php'; ?>

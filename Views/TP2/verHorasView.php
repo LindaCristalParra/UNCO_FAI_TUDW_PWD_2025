@@ -1,6 +1,6 @@
 <?php 
 $titulo = "Cálculo de Horas Semanales"; 
-include __DIR__ . '/header.php'; 
+include __DIR__ . '/../Estruct/header.php'; 
 ?>
     <div class="container mt-4">
         <h2>Ingrese las horas de cursada por día</h2>
@@ -74,4 +74,4 @@ include __DIR__ . '/header.php';
                 })
         })()
     </script>
-<?php include __DIR__ . '/footer.php'; ?>
+<?php include __DIR__ . '/../Estruct/footer.php'; ?>

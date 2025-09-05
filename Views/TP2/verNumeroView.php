@@ -1,6 +1,6 @@
 <?php 
 $titulo = "Verificar Número"; 
-include __DIR__ . '/header.php'; 
+include __DIR__ . '/../Estruct/header.php'; 
 ?>
 
     <div class="container">
@@ -45,4 +45,4 @@ include __DIR__ . '/header.php';
         })();
     </script>
     <script src="/PDW_TPS/Views/js/bootstrap.bundle.min.js"></script>
-<?php include __DIR__ . '/footer.php'; ?>
+<?php include __DIR__ . '/../Estruct/footer.php'; ?>
