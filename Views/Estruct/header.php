@@ -14,3 +14,20 @@
 
 <!-- Contenedor principal -->
 <div class="container">
+
+</div>
+</body>
+<style>
+    .grupo2-header {
+        background-color: #e0f7fa; /* celestito claro */
+        text-align: center;
+        padding: 30px 0;
+        margin-bottom: 30px;
+        border-radius: 8px;
+    }
+</style>
+
+<div class="grupo2-header">
+    <h1>GRUPO 2</h1>
+</div>
+
