@@ -6,12 +6,13 @@ class Pelicula
     private $director;
     private $guion;
     private $produccion;
-    private $anio;
+    private $año;
     private $nacionalidad;
     private $genero;
     private $duracion;
     private $restriccionEdad;
     private $sinopsis;
+    private $imagen;
 
     public function __construct($datos)
     {
@@ -20,12 +21,18 @@ class Pelicula
         $this->director = $datos['director'] ?? '';
         $this->guion = $datos['guion'] ?? '';
         $this->produccion = $datos['produccion'] ?? '';
-        $this->anio = $datos['año'] ?? '';
+        $this->año = $datos['año'] ?? '';
         $this->nacionalidad = $datos['nacionalidad'] ?? '';
         $this->genero = $datos['genero'] ?? '';
         $this->duracion = $datos['duracion'] ?? '';
         $this->restriccionEdad = $datos['restriccionEdad'] ?? '';
         $this->sinopsis = $datos['sinopsis'] ?? '';
+        $this->imagen = $datos['imagen'] ?? null;
+    }
+
+    public function setImagen($ruta)
+    {
+        $this->imagen = $ruta;
     }
 
     public function getDatos()
@@ -36,12 +43,13 @@ class Pelicula
             'director' => $this->director,
             'guion' => $this->guion,
             'produccion' => $this->produccion,
-            'año' => $this->anio,
+            'año' => $this->año,
             'nacionalidad' => $this->nacionalidad,
             'genero' => $this->genero,
             'duracion' => $this->duracion,
             'restriccionEdad' => $this->restriccionEdad,
-            'sinopsis' => $this->sinopsis
+            'sinopsis' => $this->sinopsis,
+            'imagen' => $this->imagen
         ];
     }
 }

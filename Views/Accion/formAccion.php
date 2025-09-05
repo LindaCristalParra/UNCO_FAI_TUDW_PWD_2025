@@ -52,6 +52,14 @@ switch ($accion) {
         include_once '../../Controllers/TP2/verificarPass.php';
         break;
         
+    case 'subirArchivo':
+        include_once '../../Controllers/TP3/archivoController.php';
+        break;
+
+    case 'mostrarTxt':
+    include_once '../../Controllers/TP3/mostrarTxtController.php';
+    break;
+    
     default:
         echo "<p>Acción no reconocida o no especificada.</p>";
         break;
