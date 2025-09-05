@@ -28,21 +28,4 @@ include __DIR__ . '/../Estruct/header.php';
         <?php endif; ?>
     </div>
 
-    <script>
-        // Validación Bootstrap
-        (() => {
-            'use strict'
-            const forms = document.querySelectorAll('.needs-validation')
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        })();
-    </script>
-    <script src="/PDW_TPS/Views/js/bootstrap.bundle.min.js"></script>
 <?php include __DIR__ . '/../Estruct/footer.php'; ?>
