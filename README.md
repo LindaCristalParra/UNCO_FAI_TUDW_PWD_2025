@@ -2,7 +2,7 @@
 
 ## 👥 Integrantes
 - Andrea Crespillo
-- Lautaro Mellano
+- Lautaro Mellado
 - Ramiro Navarrete
 - Linda Cristal Parra Sanhueza
 
