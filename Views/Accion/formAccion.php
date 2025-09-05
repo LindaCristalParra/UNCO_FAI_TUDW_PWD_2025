@@ -4,7 +4,7 @@
 $accion = $_POST['accion'] ?? $_GET['accion'] ?? null;
 
 switch ($accion) {
-   
+
     case 'verNumero':
         include_once '../../Controllers/TP1/verNumeroController.php';
         break;
@@ -25,6 +25,26 @@ switch ($accion) {
         include_once '../../Controllers/TP1/entradaCineController.php';
         break;
 
+    case 'verNumero2':
+        include_once '../../Controllers/TP2/verNumeroController.php';
+        break;
+    
+    case 'calcularHoras2':
+        include_once '../../Controllers/TP2/verHorasController.php';
+        break;
+    
+    case 'mostrarPersona2':
+        include_once '../../Controllers/TP2/personaController.php';
+        break;
+    
+    case 'operacionMatematica2':
+        include_once '../../Controllers/TP2/operacionController.php';
+        break;
+    
+    case 'entradaCine2':
+        include_once '../../Controllers/TP2/entradaCineController.php';
+        break;
+        
     default:
         echo "<p>Acción no reconocida o no especificada.</p>";
         break;
