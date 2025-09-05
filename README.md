@@ -1,6 +1,6 @@
 # 🎬 Proyecto Grupo 02 - Programación Web Dinámica
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Nosotros usamos XAMPP en la versión 3.3.3 para servir el proyecto en el navegador.
 >Dicho proyecto habrá que clonarlo en la carpeta C:\xampp\htdocs\ quedando un directorio con la >siguiente dirección: C:\xampp\htdocs\UNCO_FAI_TUDW_PWD_2025.
 >Utilizamos PATHs absolutos cuando invocamos estilos, controllers y/o vistas.
