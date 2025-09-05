@@ -14,6 +14,8 @@ if (!empty($_GET)) {
 
     $persona = new Persona($nombre, $apellido, $edad, $direccion, $sexo, $nivelEstudio, $deportes);
     $mensaje = $persona->getMensaje();
+    //return $mensaje;
+
 }
 
 include __DIR__ . '/../../Views/TP2/personaView.php';
