@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Operación Matemática</title>
-    <link rel="stylesheet" href="/PDW_TPS/Views/css/bootstrap.min.css">
-</head>
-
-<body class="p-4">
+<?php 
+$titulo = "Operación Matemática"; 
+include __DIR__ . '/header.php'; 
+?>
     <div class="container mt-4">
         <h2 class="mb-4">Ingrese los números y seleccione la operación</h2>
 
@@ -71,6 +65,4 @@
                 });
         })();
     </script>
-</body>
-
-</html>
+<?php include __DIR__ . '/footer.php'; ?>

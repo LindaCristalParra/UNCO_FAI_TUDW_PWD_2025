@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Cinem@s - Carga de Películas</title>
-    <link rel="stylesheet" href="/PDW_TPS/Views/css/bootstrap.min.css">
-</head>
-
-<body class="bg-light p-4">
+<?php 
+$titulo = "Cargar Película - Cinem@s"; 
+include __DIR__ . '/header.php'; 
+?>
 
     <div class="container mt-4">
         <div class="card shadow">
@@ -151,6 +145,4 @@
         })();
     </script>
 
-</body>
-
-</html>
+<?php include __DIR__ . '/footer.php'; ?>

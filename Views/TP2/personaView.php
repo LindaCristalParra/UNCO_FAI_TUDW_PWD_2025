@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Formulario Persona</title>
-    <link rel="stylesheet" href="/PDW_TPS/Views/css/bootstrap.min.css">
-</head>
-
-<body class="p-4">
+<?php 
+$titulo = "Formulario de Persona"; 
+include __DIR__ . '/header.php'; 
+?>
     <div class="container mt-4">
         <h2 class="mb-4">Ingrese sus datos</h2>
 
@@ -120,6 +114,4 @@
             });
         })();
     </script>
-</body>
-
-</html>
+<?php include __DIR__ . '/footer.php'; ?>

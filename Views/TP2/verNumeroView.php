@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Verificar Número</title>
-    <!-- Ruta absoluta desde la raíz de tu proyecto -->
-    <link rel="stylesheet" href="/PDW_TPS/Views/css/bootstrap.min.css">
-</head>
-
-<body class="p-4">
+<?php 
+$titulo = "Verificar Número"; 
+include __DIR__ . '/header.php'; 
+?>
 
     <div class="container">
         <h2 class="mb-4">Ingrese un número</h2>
@@ -52,6 +45,4 @@
         })();
     </script>
     <script src="/PDW_TPS/Views/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
+<?php include __DIR__ . '/footer.php'; ?>

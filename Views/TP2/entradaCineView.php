@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Calculadora de Entrada - Cinem@s</title>
-    <link rel="stylesheet" href="/PDW_TPS/Views/css/bootstrap.min.css">
-</head>
-
-<body class="p-4">
+<?php 
+$titulo = "Calculadora de Precio de Entradas - Cinem@s"; 
+include __DIR__ . '/header.php'; 
+?>
     <div class="container mt-4">
         <h2 class="mb-4">Calculadora de Precio de Entradas</h2>
 
@@ -55,6 +49,5 @@
                 });
         })();
     </script>
-</body>
 
-</html>
+<?php include __DIR__ . '/footer.php'; ?>
