@@ -3,11 +3,12 @@
     <meta charset="UTF-8">
     <title>Trabajos Prácticos - Programación Web Dinámica</title>
     <link rel="stylesheet" href="Views/css/bootstrap.min.css">
-    <script src="Views/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <?php 
-include "Views/Estruct/header.php";
+include 'C:\xampp\htdocs\UNCO_FAI_TUDW_PWD_2025\Views\Estruct\header.php';
+
 ?>
 
 <body class="container mt-5">
@@ -25,10 +26,10 @@ include "Views/Estruct/header.php";
         <div class="collapse" id="tp1">
             <ul class="list-group ms-3">
                 <li class="list-group-item">
-                    <a href="Controllers/TP1/verNumeroController.php">Ejercicio 1 - Ver número</a>
+                    <a href="Views/TP1/verNumeroView.php">Ejercicio 1 - Ver número</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="Controllers/TP1/otroController.php">Ejercicio 2 - Otro</a>
+                    <a href="Views/TP1/verHorasView.php">Ejercicio 2 - Ver horas</a>
                 </li>
             </ul>
         </div>
@@ -42,10 +43,10 @@ include "Views/Estruct/header.php";
         <div class="collapse" id="tp2">
             <ul class="list-group ms-3">
                 <li class="list-group-item">
-                    <a href="Controllers/TP2/verNumeroController.php">Verificar Tipo de Número</a>
+                    <a href="Views/TP2/verNumeroView.php">Verificar Tipo de Número</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="Controllers/TP2/otraValidacion.php">Otra Validación</a>
+                    <a href="Views/TP2/otraValidacion.php">Otra Validación</a>
                 </li>
             </ul>
         </div>
@@ -59,10 +60,10 @@ include "Views/Estruct/header.php";
         <div class="collapse" id="tp3">
             <ul class="list-group ms-3">
                 <li class="list-group-item">
-                    <a href="Controllers/TP3/archivoController.php">Subida de un Archivo</a>
+                    <a href="Views/TP3/archivoController.php">Subida de un Archivo</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="Controllers/TP3/multiArchivoController.php">Subida de Múltiples Archivos</a>
+                    <a href="Views/TP3/subirArchivoView.php">Subida de Múltiples Archivos</a>
                 </li>
             </ul>
         </div>
@@ -70,4 +71,7 @@ include "Views/Estruct/header.php";
     </div>
 
 </body>
+<?php
+include 'C:\xampp\htdocs\UNCO_FAI_TUDW_PWD_2025\Views\Estruct\footer.php';
+?>
 </html>
