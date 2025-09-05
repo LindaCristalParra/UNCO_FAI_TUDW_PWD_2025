@@ -31,6 +31,18 @@ include 'C:\xampp\htdocs\UNCO_FAI_TUDW_PWD_2025\Views\Estruct\header.php';
                 <li class="list-group-item">
                     <a href="Views/TP1/verHorasView.php">Ejercicio 2 - Ver horas</a>
                 </li>
+
+                <li class="list-group-item">
+                    <a href="Views/TP1/personaView.php">Ejercicio 3 - 4 - 5 - 6 - Formulario </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="Views/TP1/operacionView.php">Ejercicio 7 - Calculadora</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="Views/TP1/entradaCineView.php">Ejercicio 8 - Cine</a>
+                </li>
+                
+
             </ul>
         </div>
 
